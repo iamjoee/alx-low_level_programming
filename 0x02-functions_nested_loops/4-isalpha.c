@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * _isalpha - checks for char alphabet
  * @c: unsigned int value to be compared with ASCII value
