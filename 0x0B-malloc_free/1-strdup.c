@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * strdup - returns a pointer to a newly allocated space
+ * _strdup - returns a pointer to a newly allocated space
  * in memory
  * @str: the source string
  * Return: returns a pointer to the duplicated string
@@ -25,5 +25,6 @@ char *_strdup(char *str)
 	for (i = 0; i < len; i++)
 		copy[i] = str[i];
 	copy[len] = '\0';
-	return (copy);
+
+	return (copy);
 }
